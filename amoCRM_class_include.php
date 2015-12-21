@@ -5,5 +5,14 @@
  * Date: 21.12.2015
  * Time: 11:01
  */
-echo "class ";
+class amoCRMclassV1 {
+    //класс для работы с amoCRM
+    var $Cookie = "";
+    var $UserName = "";
+    var $SubDomain = "";
+    var $ApiKey = "";
+    function amoCRMclassV1($strCookiefile,$strUserName,$strSubDomain,$strApiKey) {
+
+    }
+}
 ?>
