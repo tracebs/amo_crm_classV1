@@ -13,12 +13,11 @@ class amoCRMclassV1 {
     var $UserName = "";
     var $SubDomain = "";
     var $ApiKey = "";
-
     //init class авторизацией
-    var $AuthStatus = FALSE;
-    var $AuthError = "";
+    public $AuthStatus = FALSE;
+    public $AuthError = "";
 
-    function amoCRMclassV1($strCookiefile,$strUserName,$strSubDomain,$strApiKey) {
+    public function amoCRMclassV1($strCookiefile,$strUserName,$strSubDomain,$strApiKey) {
         $this->Cookie = $strCookiefile;
         $this->UserName = $strUserName;
         $this->SubDomain = $strSubDomain;
